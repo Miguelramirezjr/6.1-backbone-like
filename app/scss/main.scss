@@ -19,3 +19,22 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
 }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.people {
+  width: 400px;
+  float: left;
+  min-height: 250px;
+  border: 1px solid grey;
+}
+
+.following {
+  width: 400px;
+  float: right;
+  min-height: 250px;
+  border: 1px solid grey;
+}
